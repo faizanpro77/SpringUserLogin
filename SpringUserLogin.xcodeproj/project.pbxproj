@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B284B112A69A3C3009E6BAC /* EmployeeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B284B102A69A3C3009E6BAC /* EmployeeInfoViewController.swift */; };
+		2B284B132A69C7AE009E6BAC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B284B122A69C7AE009E6BAC /* NetworkManager.swift */; };
+		2B284B152A69C8B0009E6BAC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B284B142A69C8B0009E6BAC /* Constants.swift */; };
+		2B284B172A69CC54009E6BAC /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B284B162A69CC54009E6BAC /* UserModel.swift */; };
+		2B685BBC2A69499700CA17BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B685BBB2A69499700CA17BF /* AppDelegate.swift */; };
+		2B685BBE2A69499700CA17BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B685BBD2A69499700CA17BF /* SceneDelegate.swift */; };
+		2B685BC02A69499700CA17BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B685BBF2A69499700CA17BF /* ViewController.swift */; };
+		2B685BC32A69499700CA17BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B685BC12A69499700CA17BF /* Main.storyboard */; };
+		2B685BC62A69499700CA17BF /* SpringUserLogin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B685BC42A69499700CA17BF /* SpringUserLogin.xcdatamodeld */; };
+		2B685BC82A69499B00CA17BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B685BC72A69499B00CA17BF /* Assets.xcassets */; };
+		2B685BCB2A69499B00CA17BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B685BC92A69499B00CA17BF /* LaunchScreen.storyboard */; };
+		2B685BD32A694C6A00CA17BF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B685BD22A694C6A00CA17BF /* LoginViewController.swift */; };
+		2B685BD52A696D4F00CA17BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B685BD42A696D4F00CA17BF /* HomeViewController.swift */; };
+		2B685BD82A696F9800CA17BF /* UserCellCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B685BD62A696F9800CA17BF /* UserCellCollectionView.swift */; };
+		2B685BD92A696F9800CA17BF /* UserCellCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B685BD72A696F9800CA17BF /* UserCellCollectionView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B284B102A69A3C3009E6BAC /* EmployeeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeInfoViewController.swift; sourceTree = "<group>"; };
+		2B284B122A69C7AE009E6BAC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2B284B142A69C8B0009E6BAC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2B284B162A69CC54009E6BAC /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		2B685BB82A69499700CA17BF /* SpringUserLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringUserLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B685BBB2A69499700CA17BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B685BBD2A69499700CA17BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B685BBF2A69499700CA17BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B685BC22A69499700CA17BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B685BC52A69499700CA17BF /* SpringUserLogin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpringUserLogin.xcdatamodel; sourceTree = "<group>"; };
+		2B685BC72A69499B00CA17BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B685BCA2A69499B00CA17BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B685BCC2A69499B00CA17BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B685BD22A694C6A00CA17BF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2B685BD42A696D4F00CA17BF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2B685BD62A696F9800CA17BF /* UserCellCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellCollectionView.swift; sourceTree = "<group>"; };
+		2B685BD72A696F9800CA17BF /* UserCellCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCellCollectionView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B685BB52A69499700CA17BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B685BAF2A69499700CA17BF = {
+			isa = PBXGroup;
+			children = (
+				2B685BBA2A69499700CA17BF /* SpringUserLogin */,
+				2B685BB92A69499700CA17BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B685BB92A69499700CA17BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B685BB82A69499700CA17BF /* SpringUserLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B685BBA2A69499700CA17BF /* SpringUserLogin */ = {
+			isa = PBXGroup;
+			children = (
+				2B685BBB2A69499700CA17BF /* AppDelegate.swift */,
+				2B685BBD2A69499700CA17BF /* SceneDelegate.swift */,
+				2B685BBF2A69499700CA17BF /* ViewController.swift */,
+				2B685BD22A694C6A00CA17BF /* LoginViewController.swift */,
+				2B685BD42A696D4F00CA17BF /* HomeViewController.swift */,
+				2B284B102A69A3C3009E6BAC /* EmployeeInfoViewController.swift */,
+				2B685BD62A696F9800CA17BF /* UserCellCollectionView.swift */,
+				2B685BD72A696F9800CA17BF /* UserCellCollectionView.xib */,
+				2B284B122A69C7AE009E6BAC /* NetworkManager.swift */,
+				2B284B142A69C8B0009E6BAC /* Constants.swift */,
+				2B284B162A69CC54009E6BAC /* UserModel.swift */,
+				2B685BC12A69499700CA17BF /* Main.storyboard */,
+				2B685BC72A69499B00CA17BF /* Assets.xcassets */,
+				2B685BC92A69499B00CA17BF /* LaunchScreen.storyboard */,
+				2B685BCC2A69499B00CA17BF /* Info.plist */,
+				2B685BC42A69499700CA17BF /* SpringUserLogin.xcdatamodeld */,
+			);
+			path = SpringUserLogin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B685BB72A69499700CA17BF /* SpringUserLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B685BCF2A69499B00CA17BF /* Build configuration list for PBXNativeTarget "SpringUserLogin" */;
+			buildPhases = (
+				2B685BB42A69499700CA17BF /* Sources */,
+				2B685BB52A69499700CA17BF /* Frameworks */,
+				2B685BB62A69499700CA17BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpringUserLogin;
+			productName = SpringUserLogin;
+			productReference = 2B685BB82A69499700CA17BF /* SpringUserLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B685BB02A69499700CA17BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					2B685BB72A69499700CA17BF = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B685BB32A69499700CA17BF /* Build configuration list for PBXProject "SpringUserLogin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B685BAF2A69499700CA17BF;
+			productRefGroup = 2B685BB92A69499700CA17BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B685BB72A69499700CA17BF /* SpringUserLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B685BB62A69499700CA17BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B685BCB2A69499B00CA17BF /* LaunchScreen.storyboard in Resources */,
+				2B685BD92A696F9800CA17BF /* UserCellCollectionView.xib in Resources */,
+				2B685BC82A69499B00CA17BF /* Assets.xcassets in Resources */,
+				2B685BC32A69499700CA17BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B685BB42A69499700CA17BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B284B132A69C7AE009E6BAC /* NetworkManager.swift in Sources */,
+				2B685BC02A69499700CA17BF /* ViewController.swift in Sources */,
+				2B685BBC2A69499700CA17BF /* AppDelegate.swift in Sources */,
+				2B685BD82A696F9800CA17BF /* UserCellCollectionView.swift in Sources */,
+				2B685BBE2A69499700CA17BF /* SceneDelegate.swift in Sources */,
+				2B284B152A69C8B0009E6BAC /* Constants.swift in Sources */,
+				2B284B112A69A3C3009E6BAC /* EmployeeInfoViewController.swift in Sources */,
+				2B685BD32A694C6A00CA17BF /* LoginViewController.swift in Sources */,
+				2B685BC62A69499700CA17BF /* SpringUserLogin.xcdatamodeld in Sources */,
+				2B685BD52A696D4F00CA17BF /* HomeViewController.swift in Sources */,
+				2B284B172A69CC54009E6BAC /* UserModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B685BC12A69499700CA17BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B685BC22A69499700CA17BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B685BC92A69499B00CA17BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B685BCA2A69499B00CA17BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B685BCD2A69499B00CA17BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B685BCE2A69499B00CA17BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B685BD02A69499B00CA17BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpringUserLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faizan.SpringUserLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B685BD12A69499B00CA17BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpringUserLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faizan.SpringUserLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B685BB32A69499700CA17BF /* Build configuration list for PBXProject "SpringUserLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B685BCD2A69499B00CA17BF /* Debug */,
+				2B685BCE2A69499B00CA17BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B685BCF2A69499B00CA17BF /* Build configuration list for PBXNativeTarget "SpringUserLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B685BD02A69499B00CA17BF /* Debug */,
+				2B685BD12A69499B00CA17BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B685BC42A69499700CA17BF /* SpringUserLogin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B685BC52A69499700CA17BF /* SpringUserLogin.xcdatamodel */,
+			);
+			currentVersion = 2B685BC52A69499700CA17BF /* SpringUserLogin.xcdatamodel */;
+			path = SpringUserLogin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B685BB02A69499700CA17BF /* Project object */;
+}

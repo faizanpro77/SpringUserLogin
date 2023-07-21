@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="UserCellCollectionView" id="gTV-IL-0wX" customClass="UserCellCollectionView" customModule="SpringUserLogin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="255" height="147"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="255" height="147"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mDJ-CF-QEA">
+                        <rect key="frame" x="5" y="5" width="245" height="137"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="user name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Lr-33-LcT">
+                                <rect key="frame" x="0.0" y="0.0" width="245" height="45.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Jya-XZ-z4Z">
+                                <rect key="frame" x="0.0" y="45.5" width="245" height="46"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Age:33" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1KY-bU-AN9">
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="46"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="addressline1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edd-IL-AvS">
+                                        <rect key="frame" x="150" y="0.0" width="95" height="46"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cityName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhU-ja-Igv">
+                                <rect key="frame" x="0.0" y="91.5" width="245" height="45.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="mDJ-CF-QEA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="Ve8-J3-K3e"/>
+                <constraint firstAttribute="trailing" secondItem="mDJ-CF-QEA" secondAttribute="trailing" constant="5" id="WDZ-LW-3As"/>
+                <constraint firstAttribute="bottom" secondItem="mDJ-CF-QEA" secondAttribute="bottom" constant="5" id="XOL-iu-1Ty"/>
+                <constraint firstItem="mDJ-CF-QEA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="eGT-Z6-0H3"/>
+            </constraints>
+            <size key="customSize" width="255" height="147"/>
+            <connections>
+                <outlet property="addressLabel" destination="edd-IL-AvS" id="fyQ-d1-rnA"/>
+                <outlet property="ageLabel" destination="1KY-bU-AN9" id="X0E-3Z-xuL"/>
+                <outlet property="cityLabel" destination="uhU-ja-Igv" id="blt-WL-crZ"/>
+                <outlet property="nameLabel" destination="7Lr-33-LcT" id="78q-6E-c4M"/>
+            </connections>
+            <point key="canvasLocation" x="29.710144927536234" y="65.290178571428569"/>
+        </collectionViewCell>
+    </objects>
+</document>
