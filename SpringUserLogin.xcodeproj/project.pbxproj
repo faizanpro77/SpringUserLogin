@@ -55,6 +55,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B284B182A6B038C009E6BAC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2B685BC12A69499700CA17BF /* Main.storyboard */,
+				2B685BC92A69499B00CA17BF /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2B284B192A6B03E5009E6BAC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B685BC72A69499B00CA17BF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2B284B1A2A6B0428009E6BAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B284B1B2A6B043B009E6BAC /* Controller */,
+				2B685BD62A696F9800CA17BF /* UserCellCollectionView.swift */,
+				2B685BD72A696F9800CA17BF /* UserCellCollectionView.xib */,
+				2B685BBF2A69499700CA17BF /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B284B1B2A6B043B009E6BAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B685BD22A694C6A00CA17BF /* LoginViewController.swift */,
+				2B685BD42A696D4F00CA17BF /* HomeViewController.swift */,
+				2B284B102A69A3C3009E6BAC /* EmployeeInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B284B1C2A6B04AB009E6BAC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2B284B122A69C7AE009E6BAC /* NetworkManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2B284B1D2A6B051E009E6BAC /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				2B284B142A69C8B0009E6BAC /* Constants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		2B284B1E2A6B053A009E6BAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B284B162A69CC54009E6BAC /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2B685BAF2A69499700CA17BF = {
 			isa = PBXGroup;
 			children = (
@@ -76,18 +138,12 @@
 			children = (
 				2B685BBB2A69499700CA17BF /* AppDelegate.swift */,
 				2B685BBD2A69499700CA17BF /* SceneDelegate.swift */,
-				2B685BBF2A69499700CA17BF /* ViewController.swift */,
-				2B685BD22A694C6A00CA17BF /* LoginViewController.swift */,
-				2B685BD42A696D4F00CA17BF /* HomeViewController.swift */,
-				2B284B102A69A3C3009E6BAC /* EmployeeInfoViewController.swift */,
-				2B685BD62A696F9800CA17BF /* UserCellCollectionView.swift */,
-				2B685BD72A696F9800CA17BF /* UserCellCollectionView.xib */,
-				2B284B122A69C7AE009E6BAC /* NetworkManager.swift */,
-				2B284B142A69C8B0009E6BAC /* Constants.swift */,
-				2B284B162A69CC54009E6BAC /* UserModel.swift */,
-				2B685BC12A69499700CA17BF /* Main.storyboard */,
-				2B685BC72A69499B00CA17BF /* Assets.xcassets */,
-				2B685BC92A69499B00CA17BF /* LaunchScreen.storyboard */,
+				2B284B1A2A6B0428009E6BAC /* View */,
+				2B284B1C2A6B04AB009E6BAC /* Helper */,
+				2B284B1D2A6B051E009E6BAC /* Constant */,
+				2B284B1E2A6B053A009E6BAC /* Model */,
+				2B284B182A6B038C009E6BAC /* Storyboard */,
+				2B284B192A6B03E5009E6BAC /* Resources */,
 				2B685BCC2A69499B00CA17BF /* Info.plist */,
 				2B685BC42A69499700CA17BF /* SpringUserLogin.xcdatamodeld */,
 			);
