@@ -11,6 +11,7 @@
 		2B284B132A69C7AE009E6BAC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B284B122A69C7AE009E6BAC /* NetworkManager.swift */; };
 		2B284B152A69C8B0009E6BAC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B284B142A69C8B0009E6BAC /* Constants.swift */; };
 		2B284B172A69CC54009E6BAC /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B284B162A69CC54009E6BAC /* UserModel.swift */; };
+		2B284B202A6CF6E6009E6BAC /* ios assignment springct.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2B284B1F2A6CF6E6009E6BAC /* ios assignment springct.pdf */; };
 		2B685BBC2A69499700CA17BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B685BBB2A69499700CA17BF /* AppDelegate.swift */; };
 		2B685BBE2A69499700CA17BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B685BBD2A69499700CA17BF /* SceneDelegate.swift */; };
 		2B685BC02A69499700CA17BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B685BBF2A69499700CA17BF /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 		2B284B122A69C7AE009E6BAC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		2B284B142A69C8B0009E6BAC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2B284B162A69CC54009E6BAC /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		2B284B1F2A6CF6E6009E6BAC /* ios assignment springct.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ios assignment springct.pdf"; sourceTree = "<group>"; };
 		2B685BB82A69499700CA17BF /* SpringUserLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringUserLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B685BBB2A69499700CA17BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B685BBD2A69499700CA17BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		2B284B192A6B03E5009E6BAC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2B284B1F2A6CF6E6009E6BAC /* ios assignment springct.pdf */,
 				2B685BC72A69499B00CA17BF /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -211,6 +214,7 @@
 				2B685BCB2A69499B00CA17BF /* LaunchScreen.storyboard in Resources */,
 				2B685BD92A696F9800CA17BF /* UserCellCollectionView.xib in Resources */,
 				2B685BC82A69499B00CA17BF /* Assets.xcassets in Resources */,
+				2B284B202A6CF6E6009E6BAC /* ios assignment springct.pdf in Resources */,
 				2B685BC32A69499700CA17BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
